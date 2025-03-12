@@ -60,6 +60,7 @@ export default function Home(props: GreetProps) {
           <p>{props.stack}</p>
           <div>
             <ul>
+              {/* Soft Skills */}
               <li title="Git">
                 <img
                   src="https://www.svgrepo.com/show/452210/git.svg"
@@ -72,6 +73,61 @@ export default function Home(props: GreetProps) {
                   alt="skill-icon"
                 />
               </li>
+              <li title="Vercel">
+                <img
+                  src="https://www.svgrepo.com/show/378475/vercel-fill.svg"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Figma">
+                <img
+                  src="https://www.svgrepo.com/show/452202/figma.svg"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Supabase">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQyu74dDPHYpCINs5AIb8MYSq2-1gScU0y9g&s"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Pinata">
+                <img
+                  src="https://www.svgrepo.com/show/286025/pinata.svg"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Docker">
+                <img
+                  src="https://www.svgrepo.com/show/452192/docker.svg"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="AWS">
+                <img
+                  src="https://www.svgrepo.com/show/448266/aws.svg"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Resend">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9_TiWMxcsZ7QlCGql_fKGP95fy0LkmDdYvw&s"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Stripe">
+                <img
+                  src="https://cdn.iconscout.com/icon/free/png-256/free-stripe-2-498440.png"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Lemon Squeezy">
+                <img
+                  src="https://logowik.com/content/uploads/images/lemon-squeezy-icon3930.logowik.com.webp"
+                  alt="skill-icon"
+                />
+              </li>
+              {/* Languages */}
               <li title="HTML5">
                 <img
                   src="https://www.svgrepo.com/show/452228/html-5.svg"
@@ -96,6 +152,7 @@ export default function Home(props: GreetProps) {
                   alt="skill-icon"
                 />
               </li>
+              {/* Frameworks */}
               <li title="React">
                 <img
                   src="https://www.svgrepo.com/show/374032/reactjs.svg"
@@ -105,6 +162,12 @@ export default function Home(props: GreetProps) {
               <li title="Node.js">
                 <img
                   src="https://www.svgrepo.com/show/452075/node-js.svg"
+                  alt="skill-icon"
+                />
+              </li>
+              <li title="Bun">
+                <img
+                  src="https://bun.sh/logo.svg"
                   alt="skill-icon"
                 />
               </li>
@@ -123,12 +186,6 @@ export default function Home(props: GreetProps) {
               <li title="NestJS">
                 <img
                   src="https://www.svgrepo.com/show/373872/nestjs.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Figma">
-                <img
-                  src="https://www.svgrepo.com/show/452202/figma.svg"
                   alt="skill-icon"
                 />
               </li>
@@ -162,63 +219,9 @@ export default function Home(props: GreetProps) {
                   alt="skill-icon"
                 />
               </li>
-              <li title="Vercel">
-                <img
-                  src="https://www.svgrepo.com/show/378475/vercel-fill.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Supabase">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQyu74dDPHYpCINs5AIb8MYSq2-1gScU0y9g&s"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Pinata">
-                <img
-                  src="https://www.svgrepo.com/show/286025/pinata.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Docker">
-                <img
-                  src="https://www.svgrepo.com/show/452192/docker.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="AWS">
-                <img
-                  src="https://www.svgrepo.com/show/448266/aws.svg"
-                  alt="skill-icon"
-                />
-              </li>
               <li title="Prisma">
                 <img
                   src="https://www.svgrepo.com/show/373776/light-prisma.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Auth.js">
-                <img
-                  src="https://next-auth.js.org/img/logo/logo-sm.png"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Resend">
-                <img
-                  src="https://resend.com/static/brand/resend-icon-black.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Stripe">
-                <img
-                  src="https://cdn.iconscout.com/icon/free/png-256/free-stripe-2-498440.png"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Lemon Squeezy">
-                <img
-                  src="https://logowik.com/content/uploads/images/lemon-squeezy-icon3930.logowik.com.webp"
                   alt="skill-icon"
                 />
               </li>
@@ -228,24 +231,7 @@ export default function Home(props: GreetProps) {
                   alt="skill-icon"
                 />
               </li>
-              <li title="Java">
-                <img
-                  src="https://www.svgrepo.com/show/452234/java.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="PHP">
-                <img
-                  src="https://www.svgrepo.com/show/373969/php2.svg"
-                  alt="skill-icon"
-                />
-              </li>
-              <li title="Python">
-                <img
-                  src="https://www.svgrepo.com/show/452091/python.svg"
-                  alt="skill-icon"
-                />
-              </li>
+             
             </ul>
           </div>
         </div>
