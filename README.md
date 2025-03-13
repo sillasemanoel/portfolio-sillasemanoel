@@ -1,4 +1,4 @@
-# Portfolio Sillas Emanoel (React)
+# Sillas Emanoel (React)
 
 <img src="./portfolio-sillasemanoel.png">
 
